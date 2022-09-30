@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./CSS/Like_2.css" rel="stylesheet">
+    <title>Like_2</title>
+</head>
+<body>
+    <div class="structure">
+        <div class="Nav1">
+            <h1 class="top1">Network</h1>
+        </div>
+        <div>
+            <h1 class="feed">Your Feed</h1>
+        </div>
+        <div id="int">
+            <div class="header">
+                <div class="row1">
+                    <div class="container">
+                        <div class="profile">
+                            <img src="./images/user-circle.png" alt="User pic" class="user1">
+                            <p class="link2"><a href="#" >Add an avatar</a></p>
+                            <h1>James Doe</h1>
+                        </div>
+                    </div>
+                </div>    
+                <div class="row2">
+                    <div class="container2">
+                        <div class="userLikes">
+                            <h2 class="user">Neil M</h2>
+                            <p id="likes" onclick="count()">9 like(s)</p>
+                            <button id="btn" onclick="count()">Like</button>
+                        </div>   
+                        <div>
+                            <p class="fil">I just set up this new discord bot, let me<br>know what you all think. <a href="#">link</a></p>
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <div class="userLikes">
+                            <h2 class="user">Nichole K</h2>
+                            <p id="liked" onclick="count1()">12 like(s)</p>
+                            <button id="btn2" onclick="count1()">Like</button>
+                        </div>   
+                        <div>
+                            <p class="fil">Just finished my <a href="#">next comic,</a> check it out.</p>
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <div class="userLikes">
+                            <h2 class="user">Jim R</h2>
+                            <p id="liker" onclick="count2()">9 like(s)</p>
+                            <button id="btn3" onclick="count2()">Like</button>
+                        </div>   
+                        <div>
+                            <p class="fil">This is some filter text, it can say anything<br>we like</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>    
+    </div>        
+    <script src="./Like_2.js"></script>
+</body>
+</html>
